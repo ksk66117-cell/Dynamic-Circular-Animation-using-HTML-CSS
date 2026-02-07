@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tags Demo Program</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Heading Tags -->
+    <h1>HTML Tags Demonstration</h1>
+    <h2>Basic Web Page</h2>
+    <h3>Created by Student</h3>
+
+    <!-- Paragraph & Formatting Tags -->
+    <p>
+        This is a <b>bold</b> text, <i>italic</i> text, <u>underlined</u> text,
+        <mark>highlighted</mark> text, and <small>small text</small>.
+    </p>
+
+    <p>
+        Chemical Formula: H<sub>2</sub>O <br>
+        Mathematical Power: 2<sup>3</sup> = 8
+    </p>
+
+    <hr>
+
+    <!-- Link & Image -->
+    <section>
+        <h3>Link and Image</h3>
+        <a href="https://www.google.com" target="_blank">Visit Google</a><br><br>
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+    </section>
+
+    <!-- Lists -->
+    <section>
+        <h3>Lists</h3>
+
+        <h4>Ordered List</h4>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h4>Unordered List</h4>
+        <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <li>Database</li>
+        </ul>
+
+        <h4>Description List</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h3>Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Keerthana</td>
+                <td>B.Tech CSE</td>
+                <td>3rd Year</td>
+            </tr>
+            <tr>
+                <td>Student 2</td>
+                <td>B.Tech CSE</td>
+                <td>2nd Year</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Form -->
+    <section>
+        <h3>Form</h3>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            <label>Password:</label>
+            <input type="password"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female<br><br>
+
+            <label>Skills:</label>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript<br><br>
+
+            <label>Department:</label>
+            <select>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+            </select><br><br>
+
+            <textarea rows="4" cols="30" placeholder="Enter your feedback"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <!-- Audio & Video -->
+    <section>
+        <h3>Media</h3>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio><br><br>
+
+        <video width="300" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 HTML Practice Program</p>
+    </footer>
+
+</body>
+</html>
